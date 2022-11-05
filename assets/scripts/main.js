@@ -92,6 +92,7 @@ function initFormHandler() {
     recipeObject['numRatings'] = formData.get('numRatings');
     recipeObject['lengthTime'] = formData.get('lengthTime');
     recipeObject['ingredients'] = formData.get('ingredients');
+    
     // B6. TODO - Create a new <recipe-card> element
     // B7. TODO - Add the recipeObject data to <recipe-card> using element.data
     // B8. TODO - Append this new <recipe-card> to <main>
